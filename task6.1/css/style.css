@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: aqua;
+}
+
+
+
+div {
+	border: 2px solid rgb(107, 107, 255);
+	display: inline-block;
+	background-color: rgb(107, 107, 255);
+	margin-left: 600px;
+	margin-top: 300px;
+
+}
+
+input {
+	height: 50px;
+	vertical-align: top;
+	padding: 10px;
+	border: none;
+}
+
+button {
+	background-image: url(../img/search_106530.svg);
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	vertical-align: top;
+	cursor: pointer;
+	background-color: rgb(107, 107, 255);
+	border: none;
+}
+
+input:focus {
+	border: none;
+	outline: none;
+}
